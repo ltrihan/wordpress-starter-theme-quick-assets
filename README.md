@@ -1,2 +1,5 @@
-# wordpress-starter-theme-quick-assets
-Starter theme for WordPress with quick assets configuration
+# WordPress starter theme quick assets 
+
+## Gestion des styles et des scripts
+
+
