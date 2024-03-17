@@ -1,0 +1,115 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Blanc",
+					"slug": "blanc"
+				},
+				{
+					"color": "#000000",
+					"name": "Noir",
+					"slug": "noir"
+				},
+				{
+					"color": "#254665",
+					"name": "Bleu",
+					"slug": "primary"
+				},
+				{
+					"color": "#FABF1E",
+					"name": "Jaune",
+					"slug": "secondary"
+				},
+				{
+					"color": "#EAEEF1",
+					"name": "Gris",
+					"slug": "tertiary"
+				}
+			],
+			"text": true
+		},
+		"layout": {
+			"contentSize": "1320px",
+			"wideSize": "1290px"
+		},
+		"spacing": {
+			"spacingSizes": [
+				{
+					"name": "Très petit",
+					"size": "20px",
+					"slug": "x-small"
+				},
+				{
+					"name": "Petit",
+					"size": "clamp(20px, 4vw, 40px)",
+					"slug": "small"
+				},
+				{
+					"name": "Moyen",
+					"size": "clamp(30px, 6vw, 60px)",
+					"slug": "medium"
+				},
+				{
+					"name": "Grand",
+					"size": "clamp(40px, 8vw, 80px)",
+					"slug": "large"
+				}
+			],
+			"units": [
+				"%",
+				"px",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"customFontSize": false,
+			"fontSizes": [
+				{
+					"name": "Très petite",
+					"size": "0.75rem",
+					"slug": "x-small"
+				},
+				{
+					"name": "Petite",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"name": "Moyen",
+					"size": "1.25rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "2rem",
+					"slug": "large"
+				},
+				{
+					"name": "Extra large",
+					"size": "2.75rem",
+					"slug": "x-large"
+				},
+				{
+					"name": "XXL",
+					"size": "3.75rem",
+					"slug": "xx-large"
+				}
+			],
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": true,
+			"lineHeight": false
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.3/theme.json"
+}
