@@ -1,0 +1,1 @@
+console.log("tabs.js file correctly loaded");

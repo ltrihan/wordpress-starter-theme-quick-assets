@@ -4,22 +4,14 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
     mode: "production",
     entry: {
-        default: [
-            "./assets/js/pages/default.js",
-            "./assets/scss/pages/default.scss",
+        bundle: [
+            "./assets/js/scripts.js",
+            "./assets/scss/styles.scss",
         ],
-        home: [
-            "./assets/js/pages/home.js",
-            "./assets/scss/pages/home.scss",
-        ],
-        contact: [
-            "./assets/js/pages/contact.js",
-            "./assets/scss/pages/contact.scss",
-        ]
     },
     output: {
-        path: path.resolve(__dirname, "dist/js"),
-        filename: "[name].min.js",
+        path: path.resolve(__dirname, "dist"),
+        filename: "js/[name].min.js",
     },
     module: {
         rules: [
@@ -46,7 +38,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: "../css/[name].min.css",
+            filename: "css/[name].min.css",
         }),
     ],
 };
